@@ -31,7 +31,7 @@ class App extends Component {
                     <Form inline={true}>
                         <FormControl
                             className='deadline-input'
-                            placeholder='Month, Date, Year'
+                            placeholder='Date, Month, Year'
                             onChange={event => this.setState({ newDeadline: event.target.value })}
                         />
                     </Form>
